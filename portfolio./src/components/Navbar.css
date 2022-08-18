@@ -38,7 +38,7 @@
     font-weight: 500;
 }
 
-.header .nav-item:hover {
+.header .nav-item a:hover {
     padding-bottom: 12px;
     border-bottom: 3px solid var(--secondary-color);
 }
