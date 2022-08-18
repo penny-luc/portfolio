@@ -1,6 +1,7 @@
 import './Navbar.css'
 import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
+import logo from "./images/logo.png"
 
 const Navbar = () => {
 const [click, setClick] = useState(false)
@@ -11,7 +12,7 @@ const handleClick = () => setClick(!click)
         <div className='header'>
         <nav className='navbar'>
             <a href ="/" className='logo'>
-                <img alt="logo"></img>
+                <img src={logo} alt="logo"></img>
             </a>
         <div className='hamburger' onClick={handleClick}>
         {click ? (<FaTimes size={30} style={{color:'white'}}/>) : (<FaBars size={30} style={{color:'white'}}/>)}
