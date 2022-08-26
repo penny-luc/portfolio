@@ -5,7 +5,7 @@
     --primary-dark: #47A6A3;
     --secondary-color: #D6EAED;
     --secondary-dark: #fca311;
-    --overlay: rgba(0,0,0,.7);
+    --overlay: rgba(0,0,0,.4);
 }
 
 *{

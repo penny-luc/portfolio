@@ -29,16 +29,18 @@
 }
 
 .hero .content p:first-child {
-    font-style: italic;
-    font-size: .9rem;
+    /* font-style: italic; */
+    font-size: 4rem;
+    font-weight: 600;
 }
 
 .hero .content p:nth-child(2) {
-    font-size: 1.9rem;
+    font-size: 3rem;
+    font-style: italic;
 }
 
 .hero .content p:nth-child(3) {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 

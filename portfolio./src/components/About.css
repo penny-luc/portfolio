@@ -24,7 +24,12 @@
     padding: 3rem;
 }
 
-.about .col-2 p:first-child-of-type {
+.about .col-2 p{
+    padding:1rem;
+    /* margin: 1rem; */
+}
+
+/* .about .col-2 p:first-child-of-type {
     margin: 2rem 0;
 
 }
@@ -34,7 +39,7 @@
     font-style: italic;
     font-weight: 600;
 
-}
+} */
 
 .about button{
     margin-top: 1rem;
@@ -42,10 +47,10 @@
 
 .about .container img{
     /* padding: 2rem; */
-    width: 40vw;
+    width: 30vw;
     border-radius: 50px;
     margin: 2rem;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 0 6px 20px rgb(0,0,0,.2);
 }
 
 @media screen and (max-width:940px) {
@@ -59,7 +64,7 @@
 
     .about .container img{
         padding: 0rem;
-        width: 90vw;
+        width: 70vw;
         
     }
 

@@ -5,10 +5,9 @@ const Hero = () => {
     return ( 
         <div className="hero">
         <div className="content">
-            <p>1st line</p>
-            <p>2nd line</p>
-            <p>3rd line</p>
-            <p>4th line</p>
+            <p>Hello!</p>
+            <p>I'm Penny</p>
+            <p>Nice to meet you!</p>
             {/* <button href="#about" className="button">button</button> */}
         </div>
 
