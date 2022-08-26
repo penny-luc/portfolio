@@ -40,6 +40,14 @@
     margin-top: 1rem;
 }
 
+.about .container img{
+    /* padding: 2rem; */
+    width: 40vw;
+    border-radius: 50px;
+    margin: 2rem;
+    box-shadow: 10px 10px 8px #888888;
+}
+
 @media screen and (max-width:940px) {
     .about .container {
         grid-template-columns: 1fr;
@@ -52,6 +60,7 @@
     .about .container img{
         padding: 0rem;
         width: 90vw;
+        
     }
 
     .about .container .col-2 {

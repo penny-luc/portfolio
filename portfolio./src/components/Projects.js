@@ -1,11 +1,11 @@
-import "./Testimonials.css"
+import "./Projects.css"
 import user1 from "./images/user1.jpeg"
 import user2 from "./images/user2.jpeg"
 import user3 from "./images/user3.jpeg"
 
-const Testimonials = () => {
+const Projects = () => {
     return (
-        <div className="testimonials" id='test'>
+        <div className="projects" id='projects'>
         <div className="container">
         <h2>Testimonials</h2>
         <span className="line"></span>
@@ -37,4 +37,4 @@ const Testimonials = () => {
       );
 }
  
-export default Testimonials;
+export default Projects;

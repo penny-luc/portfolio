@@ -1,8 +1,8 @@
-import "./Demo.css";
+import "./Contact.css";
 
-const Demo = () => {
+const Contact = () => {
   return (
-    <div className="demo" id='demo'>
+    <div className="contact" id='contact'>
       <div className="container">
         <div className="col-1">
           <p>Main heading</p>
@@ -11,7 +11,7 @@ const Demo = () => {
           <button className="button">button</button>
         </div>
         <div className="col-2">
-          <iframe
+          {/* <iframe
             width="570"
             height="320"
             src="https://www.youtube.com/watch?v=bms_e55PtmE"
@@ -19,11 +19,11 @@ const Demo = () => {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-          ></iframe>
+          ></iframe> */}
         </div>
       </div>
     </div>
   );
 };
 
-export default Demo;
+export default Contact;

@@ -9,7 +9,7 @@ const Hero = () => {
             <p>2nd line</p>
             <p>3rd line</p>
             <p>4th line</p>
-            <button href="/" className="button">button</button>
+            {/* <button href="#about" className="button">button</button> */}
         </div>
 
         </div>

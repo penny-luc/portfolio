@@ -8,10 +8,11 @@
 
 .hero:before {
     content:"";
-    background: url("./images/hero.jpg") no-repeat center/cover;
+    background: url("./images/arrow.jpg") no-repeat center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
+    transform: rotate(180deg);
     top: 0;
     left:0;
     z-index: -1;

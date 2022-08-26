@@ -29,10 +29,10 @@ const closeMenu = () => setClick(false)
                 <a href="#about" onClick={closeMenu}>About</a>
             </li>
             <li className='nav-item'>
-                <a href="#test" onClick={closeMenu}>Test</a>
+                <a href="#projects" onClick={closeMenu}>Projects</a>
             </li>
             <li className='nav-item'>
-                <a href="#demo" onClick={closeMenu}>Demo</a>
+                <a href="#contact" onClick={closeMenu}>Contact</a>
             </li>
         </ul>
 </nav>
