@@ -26,7 +26,7 @@ const Projects = () => {
           <p className="btc">Full stack application</p>
           <p>Collaboration for side projects</p>
           <p>1 Week Team project</p>
-          <p>Backend focus on CRUD Operations</p>
+          <p>CRUD Operations</p>
           <p>React, JS, CSS, Postgres, Express, Postman, Jest</p>
           <a href="https://github.com/SchoolOfCode/w9_backend-project-team-collyn" target="_blank" rel="noreferrer">
             <button className="button" style={{margin: "1.5rem"}}>More Info</button>
