@@ -1,7 +1,7 @@
 import './Navbar.css'
 import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
-import logo from "./images/logo.png"
+
 
 const Navbar = () => {
 const [click, setClick] = useState(false)

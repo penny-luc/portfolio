@@ -1,40 +1,53 @@
-import "./Projects.css"
-import user1 from "./images/user1.jpeg"
-import user2 from "./images/user2.jpeg"
-import user3 from "./images/user3.jpeg"
+import "./Projects.css";
+
 
 const Projects = () => {
-    return (
-        <div className="projects" id='projects'>
-        <div className="container">
-        <h2>Projects</h2>
-        <span className="line"></span>
-        <div className="content">
-            <div className="card">
-                <img src={user1} alt='user1'/>
-                <p>Review</p>
-                <p><span>name</span></p>
-                <p>TITLE</p>
-            </div>
-            <div className="card">
-                <img src={user2} alt='user2'/>
-                <p>review</p>
-                <p><span>name</span></p>
-                <p>title</p>
-            </div>
-            <div className="card">
-                <img src={user3} alt='user3'/>
-                <p>review</p>
-                <p><span>name</span></p>
-                <p>title</p>
-            </div>
+  return (
+    <div className="projects" id="projects">
+      <h2>Projects</h2>
+      <span className="line"></span>
+      <div className="card-container">
+        <div className="card">
+          <h3>Green Basket App</h3>
+          <span className="bar"></span>
+          <p className="btc">Full stack application</p>
+          <p>Making foodbanks accessible</p>
+          <p>4 Week Team project</p>
+          <p>CRUD operations</p>
+          <p>React, JS, MUI, Postgres, Express, Heroku, Jest</p>
+          <a href="https://github.com/SchoolOfCode/final-project_front-end-veraison" target="_blank" rel="noreferrer">
+            <button className="button" style={{margin: "1.5rem"}}>More Info</button>
+          </a>
+         
         </div>
-
-
+        <div className="card">
+          <h3>Collabor8</h3>
+          <span className="bar"></span>
+          <p className="btc">Full stack application</p>
+          <p>Collaboration for side projects</p>
+          <p>1 Week Team project</p>
+          <p>Backend focus on CRUD Operations</p>
+          <p>React, JS, CSS, Postgres, Express, Postman, Jest</p>
+          <a href="https://github.com/SchoolOfCode/w9_backend-project-team-collyn" target="_blank" rel="noreferrer">
+            <button className="button" style={{margin: "1.5rem"}}>More Info</button>
+          </a>
+       
         </div>
-
+        <div className="card">
+          <h3>Weather App</h3>
+          <span className="bar"></span>
+          <p className="btc">Front end app</p>
+          <p>Weather based on searched Location</p>
+          <p>Pair programming</p>
+          <p>API requests</p>
+          <p>React, TypeScript, CSS, Chakra, Postman</p>
+          <a href="https://github.com/SchoolOfCode/w12d5_typescript-react-hackathon-conor-penny" target="_blank" rel="noreferrer">
+            <button className="button" style={{margin: "1.5rem"}}>More Info</button>
+          </a>
         </div>
-      );
-}
- 
+      </div>
+    </div>
+  );
+};
+
 export default Projects;
