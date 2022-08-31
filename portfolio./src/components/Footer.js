@@ -22,8 +22,8 @@ const Footer = () => {
           >
             <FaLinkedin size={30} style={{ color: "white", margin: "1rem" }} />
           </a>
-
-          <FaMailBulk size={30} style={{ color: "white", margin: "1rem" }} />
+          <a href="#contact">
+          <FaMailBulk size={30} style={{ color: "white", margin: "1rem" }} /> </a>
         </div>
       </div>
     </div>

@@ -36,8 +36,8 @@ const Projects = () => {
         <div className="card">
           <h3>Weather App</h3>
           <span className="bar"></span>
-          <p className="btc">Front end app</p>
-          <p>Weather based on searched Location</p>
+          <p className="btc">Front end application</p>
+          <p>Weather based on location</p>
           <p>Pair programming</p>
           <p>API requests</p>
           <p>React, TypeScript, CSS, Chakra, Postman</p>

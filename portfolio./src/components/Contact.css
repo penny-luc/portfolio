@@ -1,53 +1,28 @@
 .contact{
     margin: 5rem auto;
     padding: 1rem;
-    width: 100%
+    width: 100%;
+    text-align: center;
 }
 
-.contact .container {
-    width: 1240px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.contact .col-1 {
-    padding: 1rem;
+form {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    margin: auto;
+    max-width: 600px;
 }
 
-.contact .col-1 p:nth-child(1){
-    font-size: 1.8rem;
-    font-style: italic;
+form label {
+    margin-bottom: .5rem;
 }
 
-.contact .col-1 p:nth-child(2){
-    font-size: 3rem;
-    font-weight: 600;
-    margin: .5rem 0;
-}
-
-.contact .col-1 p:nth-child(3){
+form input, textarea {
+    margin-bottom: 1.5rem;
+    padding: 10px 18px;
     font-size: 1.2rem;
-   margin-bottom: 1rem;
-}
-
-.contact .col-2{
-    margin:auto;
-}
-
-
-@media screen and (max-width:940px) {
-.contact .container {
-    max-width: 100%;
-    grid-template-columns: 1fr;
-    grid-gap: 0;
-}
-.contact iframe{
-    width: 100%;
-    height: auto;
-}
-
-    
+    background: rgba(255,255,255);
+    border: 2px solid grey;
+    border-radius: 0.2rem;
+    color: black;
 }
