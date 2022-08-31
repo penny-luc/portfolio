@@ -15,7 +15,7 @@ const Projects = () => {
           <p>4 Week Team project</p>
           <p>CRUD operations</p>
           <p>React, JS, MUI, Postgres, Express, Heroku, Jest</p>
-          <a href="https://github.com/SchoolOfCode/final-project_front-end-veraison" target="_blank" rel="noreferrer">
+          <a href="https://greenbskt.netlify.app/" target="_blank" rel="noreferrer">
             <button className="button" style={{margin: "1.5rem"}}>More Info</button>
           </a>
          
